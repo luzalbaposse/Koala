@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import '../Componentes/botones.dart';
 
 class Login extends StatelessWidget {
   const Login({Key? key}) : super(key: key);
@@ -59,25 +58,6 @@ class Login extends StatelessWidget {
                 ),
               ],
             ),
-          ),
-        ),
-      ),
-    );
-
-    Container(
-      padding: EdgeInsets.all(25),
-      margin: EdgeInsets.symmetric(horizontal: 25),
-      decoration: BoxDecoration(
-        color: Color(0xff70FFD3),
-        borderRadius: BorderRadius.circular(10),
-      ),
-      child: const Center(
-        child: Text(
-          "Iniciar sesión",
-          style: TextStyle(
-            color: Color(0xff010821),
-            fontWeight: FontWeight.bold,
-            fontSize: 20,
           ),
         ),
       ),
